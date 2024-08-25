@@ -44,7 +44,7 @@ namespace CustomMiddlewareDemo
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CustomMiddlewareDemo v1"));
             }
 
-            app.UseSkynetMiddleware();
+            app.UseCodingSignMiddleware();
 
             app.UseHttpsRedirection();
 

@@ -74,7 +74,7 @@ namespace CustomMiddlewareDemo
 
     public static class MiddlewareExtensions
     {
-        public static IApplicationBuilder UseSkynetMiddleware(this IApplicationBuilder builder)
+        public static IApplicationBuilder UseCodingSignMiddleware(this IApplicationBuilder builder)
         {
             return builder.UseMiddleware<codingSignMiddleware>();
         }
